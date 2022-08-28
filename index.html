@@ -2,9 +2,49 @@
 <html lang="en">
 <head>
     <meta charset="UTF-8">
+    <link rel="stylesheet" href="styles.css">
     <title>Tech It Easy Dashboard</title>
 </head>
 <body>
 
+<div class="tv-container">
+    <h1>Tech it Easy dashboard</h1>
+    <section class="view-container">
+        <article id="items-sold">
+            <h3>Aantal verkochte items</h3>
+            <h2>33</h2>
+        </article>
+        <article id="original-items">
+            <h3>Aantal ingekocht items</h3>
+            <h2>73</h2>
+        </article>
+        <article id="items-left-to-sell">
+            <h3>Items te verkopen</h3>
+            <h2>40</h2>
+        </article>
+    </section>
+    <section>
+        <h2>Beschikbare merken</h2>
+        <ul id="inventory-brands"></ul>
+        <h2>Voorbeeld model</h2>
+        <div id="single-tv"></div>
+    </section>
+    <section>
+        <h2>Beschikbare modellen</h2>
+        <button type="button" id="sort-price-button">Sorteer op prijs</button>
+        <button type="button" id="sort-ambilight-button">AmbiLight TV's</button>
+        <button type="button" id="sort-sold-out-button">Uitverkochte exemplaren</button>
+        <ul id="inventory-models"></ul>
+    </section>
+</div>
+
+<script src="main.js"></script>
+<script src="./functions/opdracht1.js" type="module"></script>
+<script src="./functions/opdracht2.js" type="module"></script>
+<script src="./functions/opdracht3.js" type="module"></script>
+<script src="./functions/opdracht4.js" type="module"></script>
+
+
 </body>
 </html>
+
